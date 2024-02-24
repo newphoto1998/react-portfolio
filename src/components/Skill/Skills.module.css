@@ -1,0 +1,51 @@
+.skill_content{
+    height: 300px;
+    text-align: center;
+    background-color: #0085FF;
+    color:#FFFFFF;
+    overflow: hidden;
+
+    & .skills_title{
+        margin-top: 40px;
+        font-size: 24px;
+        
+      
+     
+    }
+    & .skills_list{
+        margin-top: 70px;
+        display:flex;
+        justify-content: center;
+        list-style: none;
+       
+        & li {
+         
+            margin: 0 20px;
+        }
+        
+        & svg{
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+  
+}
+
+@media screen and (max-width:480px) {
+
+    .skill_content{
+        height: auto;
+
+        & .skills_list{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 50px;
+
+            & li{
+                margin: 20px 0;
+            }
+        }
+    }
+
+}
