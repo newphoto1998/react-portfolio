@@ -1,0 +1,17 @@
+[
+    {
+      "study": "2017 - expected July 2021",
+      "group": "Bachelor of Engineering (Computer Engineering)",
+      "College": "Suranaree University of Technology",
+      "image":"../public/assets/images/Educations/education_image_1.jpg"
+   
+
+    },
+    {
+        "study": "2014 - 2016",
+        "group": "Sciences and Mathematics Program",
+        "College": "Darasamunt Aranyaprathet School",
+        "image":"../public/assets/images/Educations/education_image_2.jpg"
+    }
+ 
+  ]

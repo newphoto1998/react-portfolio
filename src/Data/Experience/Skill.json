@@ -1,0 +1,59 @@
+[
+    {
+      "title": "C#",
+      "image":"../public/assets/images/Experience/C.svg"
+   
+
+    },
+
+     {
+      "title": "NODE JS",
+      "image":"../public/assets/images/Experience/NODE.png"
+   
+
+    },
+
+    {
+        "title": "REACT",
+        "image":"../public/assets/images/Experience/REACT.png"
+     
+  
+    },
+    {
+        "title": "Angular",
+        "image":"../public/assets/images/Experience/angular.png"
+     
+  
+      },
+      {
+        "title": "HTML",
+        "image":"../public/assets/images/Experience/HTML.png"
+     
+  
+      },
+      {
+        "title": "CSS",
+        "image":"../public/assets/images/Experience/CSS.png"
+     
+  
+      },
+      {
+        "title": "Tailwind",
+        "image":"../public/assets/images/Experience/tailwind.svg"
+     
+  
+      },
+      {
+        "title": "TypeScrpit",
+        "image":"../public/assets/images/Experience/TS.png"
+     
+  
+      },
+      {
+        "title": "MS SQL",
+        "image":"../public/assets/images/Experience/SQL.png"
+     
+  
+      }
+ 
+  ]

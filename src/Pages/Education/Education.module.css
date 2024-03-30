@@ -1,0 +1,56 @@
+.bgCard{
+    background: linear-gradient(90deg, #19376D 0%, rgba(25, 55, 109, 0) 100%);
+}
+
+
+.education_img_1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url('../../../public/assets/images/Educations/education_image_1.jpg');
+    background-size: cover;
+  
+    margin-right: 20px;
+ 
+
+}
+
+.education_img_2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: url('../../../public/assets/images/Educations/education_image_2.jpg');
+    background-size: cover;
+    margin-right: 20px;
+ 
+
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .education_img{
+        width: 140px;   
+    border-radius: 100%;
+    margin-bottom: 30px;
+
+    
+    
+
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .education_img_2{   
+        width: 100px;  
+    border-radius: 100%;
+    margin-bottom: 30px;
+    /* margin-top: 20px;
+    margin-right: 30px; */
+    
+    
+
+    }
+}
