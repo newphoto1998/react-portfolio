@@ -43,7 +43,7 @@ function Experience() {
             {Experiences.map((_item, index) => {
               return (
                 <>
-                  <div className=" hover:-translate-y-1 hover:scale-110 duration-300 p-6 bg-slate-900 rounded-lg text-left flex flex-row justify-between space-x-4 bg-gradient-to-r from-[#19376D] from-100% to-[#19376D] to-0% ">
+                  <div  key={index} className=" hover:-translate-y-1 hover:scale-110 duration-300 p-6 bg-slate-900 rounded-lg text-left flex flex-row justify-between space-x-4 bg-gradient-to-r from-[#19376D] from-100% to-[#19376D] to-0% ">
                     <div className="bg-cover bg-center">
                       <img src={_item.image} className="w-20 h-20" />
                     </div>
@@ -53,7 +53,7 @@ function Experience() {
                       {_item.JobRes.map((res, index2) => {
                         return (
                           <>
-                            <h1 className="text-sm">
+                            <h1  key={index2} className="text-sm">
                               <p className="text-2xl inline">·</p> {res}
                             </h1>
                           </>

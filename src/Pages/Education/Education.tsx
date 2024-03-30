@@ -1,4 +1,4 @@
-import education from "../../animation/education.json";
+// import education from "../../animation/education.json";
 import education_2 from "../../animation/education_2.json";
 
 import Lottie from "lottie-react";
@@ -23,7 +23,7 @@ function Education() {
               {Educations.map((_item, index) => {
                 return (
                   <>
-                    <div className="p-6 bg-[#19376D] rounded-lg text-left flex flex-row justify-between">
+                    <div key={index} className="p-6 bg-[#19376D] rounded-lg text-left flex flex-row justify-between">
                       <img
                         className="h-[100px] w-[100px] rounded-full mr-[20px] bg-cover bg-center"
                         src={_item.image}

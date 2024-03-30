@@ -6,7 +6,6 @@ import { ImBlog } from "react-icons/im";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
 import { Link } from "react-scroll";
-import Experience from "./../../../Pages/Experience/Experience";
 
 function Navbar() {
   const [isToggle, setToggle] = useState<Boolean>(false);
