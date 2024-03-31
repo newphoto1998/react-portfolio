@@ -5,15 +5,15 @@ import styles from "./Home.module.css";
 function Home() {
   return (
     <div className="overflow-hidden bg-[#04152D]" id="home">
-      <div className="p-2 h-auto md:h-[500px] md:max-w-[1170px] md:m-auto text-white">
+      <div className="p-4 h-auto md:h-[500px] md:max-w-[1170px] md:m-auto text-white">
         <div className="flex flex-col-reverse md:flex-row justify-between items-center mt-10">
           <div className="text-center text-3xl md:text-left">
             <h1>Hi, it’s me</h1>
-            <h1 className="text-white text-5xl font-bold mt-3 md:text-7xl ">
+            <h1 className="text-white text-4xl md:text-5xl font-bold mt-3 md:text-7xl ">
               Phatcharaphon.F
             </h1>
 
-            <p className="text-3xl font-thin mt-3">
+            <p className="text-2xl md:text-3xl font-thin mt-3">
               <span style={{ marginRight: "10px" }}> I'm a </span>
               <TypeAnimation
                 sequence={[
@@ -27,15 +27,13 @@ function Home() {
               />
             </p>
 
-            <ul className="flex space-x-5 mt-10 ">
+            <ul className="flex justify-center md:justify-start  space-x-5 mt-10 ">
               <li>
                 <button
                   className="text-white hover:outline-6 hover:transition ease-in-out delay-150  hover:bg-indigo-500 duration-300 hover:transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:text-white duration-300  font-bold  px-6 py-2 rounded-full text-[24px]"
-                  onClick={() =>
-                    window.open("../../../public/assets/CV/CV.pdf", "_blank")
-                  }
+                  onClick={() => window.open("/assets/CV/CV.pdf", "_blank")}
                 >
-                  Download CV
+                  Resume
                 </button>
               </li>
               <li>

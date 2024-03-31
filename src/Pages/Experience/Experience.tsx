@@ -9,17 +9,7 @@ function Experience() {
           EXPERIENCE
         </div>
         <div className="w-auto md:flex flex-row justify-items-center mt-12">
-          <div className="p-4 grid grid-cols-2 md:grid grid-cols-3 grow md:w-[2px] justify-items-start mb-20">
-            {/* <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center "><img src="../public/assets/images/Experience/C.svg" className="w-20 h-20 "/><br />C#</div>
-            <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center "><img src="../public/assets/images/Experience/NODE.png" className="w-20 h-20"/><br />NODE JS</div>
-            <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center "><img src="../public/assets/images/Experience/REACT.png" className="w-20 h-20"/><br />REACT</div>
-            <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center mt-14"><img src="../public/assets/images/Experience/angular.png" className="w-20 h-20 "/><br />Angular</div>
-            <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center mt-14"><img src="../public/assets/images/Experience/HTML.png"  className="w-20 h-20 "/><br />HTML</div>
-            <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center mt-14"><img src="../public/assets/images/Experience/CSS.png" className="w-20 h-20"/><br />CSS</div>
-            <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center mt-14"><img src="../public/assets/images/Experience/tailwind.svg" className="w-20 h-20"/><br />Tailwind</div>
-            <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center mt-14"><img src="../public/assets/images/Experience/TS.png" className="w-20 h-20"/><br />TypeScrpit</div>
-            <div className="hover:-translate-y-1 hover:scale-110 duration-300 box-border h-28 w-28 p-4 rounded-full bg-blue-900 text-center mt-14"><img src="../public/assets/images/Experience/SQL.png" className="w-20 h-20"/><br />MS SQL</div> */}
-
+          <div className="p-[-10px] md:p-4 grid grid-cols-2 md:grid grid-cols-3 grow md:w-[2px] justify-items-start mb-20">
             {Skills.map((_item, index) => {
               return (
                 <>
@@ -43,7 +33,10 @@ function Experience() {
             {Experiences.map((_item, index) => {
               return (
                 <>
-                  <div  key={index} className=" hover:-translate-y-1 hover:scale-110 duration-300 p-6 bg-slate-900 rounded-lg text-left flex flex-row justify-between space-x-4 bg-gradient-to-r from-[#19376D] from-100% to-[#19376D] to-0% ">
+                  <div
+                    key={index}
+                    className=" hover:-translate-y-1 hover:scale-110 duration-300 p-6 bg-slate-900 rounded-lg text-left flex flex-row justify-between space-x-4 bg-gradient-to-r from-[#19376D] from-100% to-[#19376D] to-0% "
+                  >
                     <div className="bg-cover bg-center">
                       <img src={_item.image} className="w-20 h-20" />
                     </div>
@@ -53,7 +46,7 @@ function Experience() {
                       {_item.JobRes.map((res, index2) => {
                         return (
                           <>
-                            <h1  key={index2} className="text-sm">
+                            <h1 key={index2} className="text-sm">
                               <p className="text-2xl inline">·</p> {res}
                             </h1>
                           </>

@@ -8,7 +8,7 @@ function Education() {
   return (
     <>
       <div className="overflow-hidden bg-[#04152D]" id="education">
-        <div className="p-5 md:h-[500px] md:max-w-[1170px] md:m-auto text-white ">
+        <div className="p-5 md:h-[540px] md:max-w-[1170px] md:m-auto text-white ">
           <div className="text-center md:text-left text-4xl mt-20 font-bold">
             Education
           </div>
@@ -23,7 +23,10 @@ function Education() {
               {Educations.map((_item, index) => {
                 return (
                   <>
-                    <div key={index} className="p-6 bg-[#19376D] rounded-lg text-left flex flex-row justify-between">
+                    <div
+                      key={index}
+                      className="p-6 bg-[#19376D] rounded-lg text-left flex flex-row justify-between"
+                    >
                       <img
                         className="h-[100px] w-[100px] rounded-full mr-[20px] bg-cover bg-center"
                         src={_item.image}
