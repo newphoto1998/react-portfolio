@@ -11,7 +11,7 @@
         "name": "Todo List Employee Card ",
         "description": "  Hello! I am ABU SAID, a professional and passionate programmer inmy daily life. A quick learner with a self-learning attitude.",
         "technology": ["dotnet 8", "React", "Mui","Tailwind"],
-        "image":"../../../public/assets/images/Projects/1.png"
+        "image":"/assets/images/Projects/1.png"
      
   
       },
@@ -19,7 +19,7 @@
         "name": "Inventory System",
         "description": "  Hello! I am ABU SAID, a professional and passionate programmer inmy daily life. A quick learner with a self-learning attitude.",
         "technology": ["dotnet 8", "NextJS", "Mui","Tailwind"],
-        "image":"../../../public/assets/images/Projects/1.png"
+        "image":"/assets/images/Projects/1.png"
      
   
       }
