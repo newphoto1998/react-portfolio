@@ -3,7 +3,7 @@ import projects from "../../Data/Project.json";
 function Projects() {
   return (
     <div className="overflow-hidden bg-[#04152D]" id="projects">
-      <div className="p-5 md:h-[800px] h-[2000px]  md:max-w-[1170px] md:m-auto text-white ">
+      <div className="p-5 md:h-[700px] h-[2000px]  md:max-w-[1170px] md:m-auto text-white ">
         <div className="text-center md:text-left text-4xl mt-20 font-bold">
           PROJECTS
         </div>
