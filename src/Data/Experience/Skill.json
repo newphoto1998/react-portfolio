@@ -33,25 +33,25 @@
       },
       {
         "title": "CSS",
-        "image":"../public/assets/images/Experience/CSS.png"
+        "image":"../../../public/assets/images/Experience/CSS.png"
      
   
       },
       {
         "title": "Tailwind",
-        "image":"../public/assets/images/Experience/tailwind.svg"
+        "image":"../../../public/assets/images/Experience/tailwind.svg"
      
   
       },
       {
         "title": "TypeScrpit",
-        "image":"../public/assets/images/Experience/TS.png"
+        "image":"../../../public/assets/images/Experience/TS.png"
      
   
       },
       {
         "title": "MS SQL",
-        "image":"../public/assets/images/Experience/SQL.png"
+        "image":"../../../public/assets/images/Experience/SQL.png"
      
   
       }

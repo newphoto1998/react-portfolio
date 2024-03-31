@@ -3,7 +3,7 @@
       "name": "Daikin Compressor Industries Ltd.",
       "workTime": "Apr 2022  - Present",
       "JobRes": ["Design, development Control Wip Stock System", "Design, development HRD Systems.", "Design, development Logistics (part material) System"],
-      "image":"../public/assets/images/Experience/daikin.png"
+      "image":"../../../public/assets/images/Experience/daikin.png"
    
 
     },
@@ -11,7 +11,7 @@
         "name": "Bluewind Solution Co., Ltd.",
         "workTime": "Nov, 2020 - Feb, 2021",
         "JobRes": ["Implement Maintenance our partner's enterprise systems.", "Database Design", "Develop various web-based ERP systems."],
-        "image":"../public/assets/images/Experience/bluewind.png"
+        "image":"../../../public/assets/images/Experience/bluewind.png"
     }
  
   ]

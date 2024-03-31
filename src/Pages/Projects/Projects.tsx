@@ -3,7 +3,7 @@ import projects from "../../Data/Project.json";
 function Projects() {
   return (
     <div className="overflow-hidden bg-[#04152D]" id="projects">
-      <div className="p-5 h-[1800px] md:h-[800px] md:max-w-[1170px] md:m-auto text-white ">
+      <div className="p-5 h-[2000px] md:h-[800px] md:max-w-[1170px] md:m-auto text-white ">
         <div className="text-center md:text-left text-4xl mt-20 font-bold">
           PROJECTS
         </div>
@@ -30,6 +30,14 @@ function Projects() {
                         </>
                       );
                     })}
+                  </div>
+                  <div className="flex justify-around text-center mt-6 text-2xl ">
+                    <div className="bg-[#576CBC] rounded-3xl">
+                      <button className="p-2 w-[120px] ">Demo</button>
+                    </div>
+                    <div className="bg-[#576CBC]  rounded-3xl">
+                      <button className="p-2 w-[120px]">Source</button>
+                    </div>
                   </div>
                 </div>
               </>
