@@ -7,7 +7,7 @@ function Contract() {
       <div className="p-5 md:h-[320px] md:max-w-[1170px] md:m-auto text-white ">
         <div className="flex flex-col md:flex-row justify-between align-items-start mt-8 ">
           <div className="text-center grid content-center grow">
-            <h1 className="text-3xl md:text-5xl font-bold ">CONTRACT</h1>
+            <h1 className="text-3xl md:text-5xl font-bold ">CONTACT</h1>
             <br />
             <h1 className="text-2xl md:text-4xl font-bold ">
               Feel free to reach out !
