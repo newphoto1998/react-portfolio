@@ -17,13 +17,13 @@ function Contract() {
             <div className="">
               <FaGithub className="w-[35px] h-[45px] md:w-[30px] md:h-[50px] inline" />
               <h1 className="text-xl md:text-2xl inline">
-                &nbsp;&nbsp;github.com/newphoto1998
+                &nbsp;&nbsp;<a href="https://github.com/newphoto1998">github.com/newphoto1998 </a>
               </h1>
             </div>
             <div>
               <FaLinkedin className="w-[32px] h-[45px] md:w-[30px] md:h-[50px] inline" />
               <h1 className="text-xl md:text-2xl inline">
-                &nbsp;linkedin.com/new-patcharaphon
+                &nbsp;<a href="https://www.linkedin.com/in/new-patcharaphon-36932b218">linkedin.com/new-patcharaphon</a>
               </h1>
             </div>
             <div>

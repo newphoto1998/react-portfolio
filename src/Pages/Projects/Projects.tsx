@@ -8,7 +8,7 @@ function Projects() {
           PROJECTS
         </div>
         <div className="grid gap-10 grid-cols-1 md:grid-cols-3 mt-10">
-          {projects.map((item) => {
+          {projects.map((item,index) => {
             return (
               <>
                 <div className="rounded-lg hover:-translate-y-1 hover:scale-110 duration-300 p-6 bg-gradient-to-r from-[#19376D] from-100% to-[#19376D] to-0%">
@@ -32,11 +32,13 @@ function Projects() {
                     })}
                   </div>
                   <div className="flex justify-around text-center mt-6 text-2xl ">
+                 {index == 1 &&
                     <div className="bg-[#576CBC] rounded-3xl">
-                      <button className="p-2 w-[120px] ">Demo</button>
-                    </div>
+                    <button  className="p-2 w-[120px] "><a href={item.demo}>Demo</a></button>
+                  </div>}
+                 
                     <div className="bg-[#576CBC]  rounded-3xl">
-                      <button className="p-2 w-[120px]">Source</button>
+                      <button className="p-2 w-[120px]"><a href={item.source}>Source</a></button>
                     </div>
                   </div>
                 </div>

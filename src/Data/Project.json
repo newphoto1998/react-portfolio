@@ -1,27 +1,24 @@
 [
     {
       "name": "E-SPORT SHOP E-COMMER.",
-      "description": "  Hello! I am ABU SAID, a professional and passionate programmer inmy daily life. A quick learner with a self-learning attitude.",
-      "technology": ["dotnet 8", "React", "Mui","Tailwind"],
-      "image":"/assets/images/Projects/1.png"
+      "description": "Gaming gear Products ",
+      "technology": ["Django", "Bootstrap", "MySQl"],
+      "demo":"",
+      "source":"https://github.com/newphoto1998/EsportShop-Ecommerce",
+      "image":"/assets/images/Projects/ecommmer.png"
    
 
     },
     {
-        "name": "Todo List Employee Card ",
-        "description": "  Hello! I am ABU SAID, a professional and passionate programmer inmy daily life. A quick learner with a self-learning attitude.",
-        "technology": ["dotnet 8", "React", "Mui","Tailwind"],
-        "image":"/assets/images/Projects/1.png"
-     
+      "name": "Web Portfolio",
+      "description": "A website used to create and publish user portfolios.",
+      "technology": ["React","vite","Tailwind"],
+      "demo":"https://newphotodev-portfolio.vercel.app/",
+      "source":"https://github.com/newphoto1998/react-portfolio",
+      "image":"/assets/images/Projects/portfolio.png"
+   
+
+    }
   
-      },
-      {
-        "name": "Inventory System",
-        "description": "  Hello! I am ABU SAID, a professional and passionate programmer inmy daily life. A quick learner with a self-learning attitude.",
-        "technology": ["dotnet 8", "NextJS", "Mui","Tailwind"],
-        "image":"/assets/images/Projects/1.png"
-     
-  
-      }
  
   ]

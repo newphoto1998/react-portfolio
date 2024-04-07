@@ -6,6 +6,7 @@ import { ImBlog } from "react-icons/im";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
 import { Link } from "react-scroll";
+import Experience from './../../../Pages/Experience/Experience';
 
 function Navbar() {
   const [isToggle, setToggle] = useState<Boolean>(false);
@@ -58,7 +59,7 @@ function Navbar() {
                   offset={-100}
                   duration={500}
                 >
-                  {" "}
+               
                   Education
                 </Link>
               </li>
@@ -75,7 +76,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
-                <Link to="Contract">Contract</Link>
+                <Link to="Contract">Contact</Link>
               </li>
             </ul>
 
@@ -92,29 +93,67 @@ function Navbar() {
           <>
             <ul className="flex flex-col items-center space-y-5 text-xl text-white md:hidden p-5">
               <li>
-                <Link to="/" spy={true}>
-                  <MdOutlineHome className="inline" /> Home
+              <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  Home
+                </Link>
+             
+              </li>
+              <li>
+                {/* <a href="">
+                  <IoPersonOutline className="inline" /> About
+                </a> */}
+                 <Link
+                  to="About"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  About
+                </Link>
+                
+              </li>
+              <li>
+                {/* <a href="">
+                  <AiOutlineFundProjectionScreen className="inline" /> Education
+                </a> */}
+                  <Link
+                  to="education"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+               
+                  Education
                 </Link>
               </li>
               <li>
-                <a href="">
-                  <IoPersonOutline className="inline" /> About
-                </a>
+                {/* <a href="">
+                  <MdOutlinePortrait className="inline" /> Experience
+                </a> */}
+                 <Link
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                >
+                  {" "}
+                  Experience
+                </Link>
               </li>
               <li>
-                <a href="">
-                  <AiOutlineFundProjectionScreen className="inline" /> Project
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <MdOutlinePortrait className="inline" /> Resume
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <ImBlog className="inline" /> Blogs
-                </a>
+                {/* <a href="">
+                  <ImBlog className="inline" /> Contact
+                </a> */}
+                <Link to="Contract">Contact</Link>
               </li>
             </ul>
           </>

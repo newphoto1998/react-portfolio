@@ -1,6 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import { Tilt } from "react-tilt";
 import styles from "./Home.module.css";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -38,7 +39,15 @@ function Home() {
               </li>
               <li>
                 <button className="bg-blue-500 hover:bg-slate-600	 text-white font-bold  px-10 py-2 rounded-full text-[24px]">
-                  Contract
+                  <Link
+                    to="Contract"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                  >
+                    Contact
+                  </Link>
                 </button>
               </li>
             </ul>
