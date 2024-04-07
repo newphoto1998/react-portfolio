@@ -29,7 +29,7 @@ function Projects() {
                           </button>
                         </>
                       );
-                    })}
+                  })}
                   </div>
                   <div className="flex justify-around text-center mt-6 text-2xl ">
                  {index == 1 &&
