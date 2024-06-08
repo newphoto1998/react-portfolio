@@ -29,7 +29,7 @@ function Contract() {
             <div>
               <MdEmail className="w-[35px] h-[45px] md:w-[30px] md:h-[50px] inline" />
               <h1 className="text-xl md:text-2xl inline">
-                &nbsp;&nbsp;patcharaphon1998@gmail.com
+                &nbsp;&nbsp;patcharaphon110341@gmail.com
               </h1>
             </div>
           </div>
