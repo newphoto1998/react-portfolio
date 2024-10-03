@@ -1,4 +1,4 @@
-#https://newphotodev-portfolio.vercel.app/
+https://newphotodev-portfolio.vercel.app/
 
 This project was built using these technologies.
 
