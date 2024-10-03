@@ -11,8 +11,6 @@ Getting Started
 Clone down this repository. You will need node.js and git installed globally on your machine.
 
 🛠 Installation and Setup Instructions
-Installation: npm install
+1) Installation: npm install
+2) npm run dev
 
-In the project directory, you can run: npm start
-
-Runs the app in the development mode.
