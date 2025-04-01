@@ -18,6 +18,16 @@
       "image":"/assets/images/Projects/portfolio.png"
    
 
+    },
+    {
+      "name": "Disaster Prediction and Alert System API",
+      "description": "The system integrates with external APIs to gather real-time environmental data and uses a simple scoring algorithm to assess risk levels.Disaster Prediction and Alert System API",
+      "technology": [".net core 8","web api", "Azure"],
+      "demo":"https://test-demo-project-befwhacvaugscvaw.southeastasia-01.azurewebsites.net/",
+      "source":"https://github.com/newphoto1998/Disaster-Prediction-and-Alert-System-API",
+      "image":"/assets/images/Projects/api.png"
+   
+
     }
   
  
